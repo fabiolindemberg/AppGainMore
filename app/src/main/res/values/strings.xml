@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GanhaMais</string>
+    <string name="logo">Logo</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="btnEntrar">Entrar</string>
+</resources>
