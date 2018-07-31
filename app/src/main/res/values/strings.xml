@@ -4,4 +4,10 @@
     <string name="email">E-mail</string>
     <string name="password">Senha</string>
     <string name="btnEntrar">Entrar</string>
+    <string name="name">Fábio Lindemberg Pereira</string>
+    <string name="balance">Saldo</string>
+    <string name="statement">Extrato</string>
+    <string name="student_image">Student Image</string>
+    <string name="balance_value">250pts</string>
+    <string name="btnStatement">Button</string>
 </resources>
