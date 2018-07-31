@@ -15,15 +15,14 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        btnGetIn = findViewById(R.id.btnEntrar);
+        btnGetIn = findViewById(R.id.btnGetIn);
 
         btnGetIn.setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            Intent intent = new Intent(view.getContext(), MainActivity.class);
-                                            startActivity(intent);
-                                        }
-                                    }
-        );
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
